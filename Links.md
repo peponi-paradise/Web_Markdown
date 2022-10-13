@@ -4,22 +4,17 @@
 ```md
 1. 기본 사용법
     - [티스토리](http://tistory.com)
-
 2. 툴팁과 함께 사용
     - [네이버](http://naver.com "네이버")
     - [구글](http://google.com "google")
-
 3. 다이렉트 링크 (이메일 또는 URL)
     - <https://microsoft.com>
     - <tistory@tistory.com>
-
 4. 링크 강조
    - 강조 링크 **[강조 링크](http://tistory.com)**
    - 다른 강조 *[강조 링크](https://markdownguide.org)*
-
 5. 내부 링크 연결
    - 여기를 누르면 [`Links`](#Links)로 이동
-
 6. 참조 링크
    - 글 중간에 [참조링크][1] 삽입
    - 여러 형태로 주소 삽입 가능. 아래 네 케이스 예시의 조합 형태도 가능
@@ -36,22 +31,17 @@
 
 1. 기본 사용법
     - [티스토리](http://tistory.com)
-
 2. 툴팁과 함께 사용
     - [네이버](http://naver.com "네이버")
     - [구글](http://google.com "google")
-
 3. 다이렉트 링크 (이메일 또는 URL)
     - <https://microsoft.com>
     - <tistory@tistory.com>
-
 4. 링크 강조
    - 강조 링크 **[강조 링크](http://tistory.com)**
    - 다른 강조 *[강조 링크](https://markdownguide.org)*
-
 5. 내부 링크 연결
-   - 여기를 누르면 [`Links`](#Links)로 이동
-
+   - 여기를 누르면 [`참조문헌`](#참조-문헌)로 이동
 6. 참조 링크
    - 글 중간에 [참조링크][1] 삽입
    - 여러 형태로 주소 삽입 가능. 아래 네 케이스 예시의 조합 형태도 가능
