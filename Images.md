@@ -36,3 +36,8 @@
 
 - 주의사항
     1. 이미지 로드를 위한 URL이 잘못 지정되었거나 삭제되는 등 이미지를 불러오지 못하는 경우, 깨진 이미지 아이콘 !["](URL) 이 발생하며 대체 텍스트만 표시된다.
+
+<br><br>
+
+### 참조 문헌
+1. [markdownguide.org - Basic syntax](https://www.markdownguide.org/basic-syntax/#overview "Basic syntax overview")
