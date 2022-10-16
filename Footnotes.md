@@ -39,3 +39,7 @@
 [^a1]: 이것은 세번째 각주이다.<br>
     각주가 길어져도, 글 하단에 자동으로 추가된다.<br>
     필요한 경우, 각주 내용 도중 `코드`삽입과 같이 글자 *Formatting*도 가능하다.
+<br><br>
+
+### 참조 문헌
+1. [markdownguide.org - Extended syntax](https://www.markdownguide.org/extended-syntax/#tables "Extended syntax overview")
