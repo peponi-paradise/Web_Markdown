@@ -179,4 +179,4 @@
 3. [[마크다운] 표만들기 - 셀정렬 방법](https://steemit.com/kr/@antares007/-201787t14245290z)
 4. [마크다운 테이블 열 크기 늘리기](https://www.memoengine.com/blog/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%20%ED%85%8C%EC%9D%B4%EB%B8%94%20%EC%97%B4%20%ED%81%AC%EA%B8%B0%20%EB%8A%98%EB%A6%AC%EA%B8%B0/)
 5. [마크다운 언어를 이용해서 표 만들기(영문)](https://productivityarchive.wordpress.com/2013/08/10/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EC%96%B8%EC%96%B4%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-%ED%91%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0%EC%98%81%EB%AC%B8-2/)
-6. 
+6. [Markdown 기초 연습 - Emphasis](https://peponi-paradise.tistory.com/entry/Markdown-Practice-Emphasis)
