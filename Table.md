@@ -128,7 +128,7 @@
 
     + After 
     
-    |항목 1&nbsp;&nbsp;&nbsp;&nbsp;|항목 2&nbsp;&nbsp;&nbsp;&nbsp;|두 줄로 만들 항목 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　3|
+    |항목 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|항목 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|두 줄로 만들 항목 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　3|
     |---|---|---|
     |내용 1|내용 2|내용 3|
     |내용 4|내용 5|내용 6|
