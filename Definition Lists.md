@@ -26,7 +26,49 @@
 : 20년도 더 쓴 것 같은데 아직도 오른손은 독수리 타자..
 : 원한다면 **글자***Formatting*도 [`가능`](#title)
 
+<br>
+
+- 특이사항
+    1. 깃허브에서는 지원하지 않는 것 같다. 출력된 것 확인해보니 그냥 글자로만 나온다..
+    2. 티스토리 확인 후 작성
+    3. 지원이 안되는데 정 필요한 경우, HTML로 작성해야한다.
+
+<br>
+
+```html
+- Format
+
+<dl> : Definition list
+    <dt> : Definition title
+    <dd> : Definition detail
+
+
+- Example
+
+<dl>
+    <dt>의자</dt>
+    <dd>내가 앉아있는 것</dd>
+    <dd>옷을 걸어두는 용도</dd>
+    <dt>키보드</dt>
+    <dd>매일매일 붙잡고 있는 것</dd>
+    <dd>20년도 더 쓴 것 같은데 아직도 오른손은 독수리 타자..</dd>
+    <dd>원한다면 <strong>글자</strong><i>Formatting</i>도 <a href="#title">가능</a></dd>
+</dl>
+```
+<br>
+
+<dl>
+    <dt>의자</dt>
+    <dd>내가 앉아있는 것</dd>
+    <dd>옷을 걸어두는 용도</dd>
+    <dt>키보드</dt>
+    <dd>매일매일 붙잡고 있는 것</dd>
+    <dd>20년도 더 쓴 것 같은데 아직도 오른손은 독수리 타자..</dd>
+    <dd>원한다면 <strong>글자</strong><i>Formatting</i>도 <a href="#title">가능</a></dd>
+</dl>
+
 <br><br>
+
 
 ### 참조 문헌
 1. [markdownguide.org - Extended syntax](https://www.markdownguide.org/extended-syntax/#tables "Extended syntax overview")
