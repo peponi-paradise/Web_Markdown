@@ -13,12 +13,10 @@
 
 - 테스트
 
-1. 사용법<br>
-    **이렇게 하면 글자 강조가 들어가지만**<br>
+    **이렇게 하면 글자 강조가 들어가지만**
     \*\* 이렇게 하면 글자 그대로 나온다 \*\*
-
-    + 이렇게 하면 리스트로 표현되지만<br>
-    \+ 이렇게 하면 글자로 표현된다
+    <br>
+    + 이렇게 하면 리스트로 표현되지만<br>\+ 이렇게 하면 글자로 표현된다
 <br><br>
 
 
@@ -40,7 +38,8 @@
     | . |Dot, Period, Full stop, Point|
     | ! |Exclamation mark|
     | \| |Pipe|
-<br><br>
+
+<br>
 
 ### 참조 문헌
 1. [markdownguide.org - Basic syntax](https://www.markdownguide.org/basic-syntax/#overview "Basic syntax overview")
