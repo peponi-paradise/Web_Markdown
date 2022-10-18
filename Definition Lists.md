@@ -30,13 +30,14 @@
 
 - 특이사항
     1. 깃허브에서는 지원하지 않는 것 같다. 출력된 것 확인해보니 그냥 글자로만 나온다..
-    2. 티스토리도 마찬가지이다. 일부 마크다운만 지원하나보다.
+    2. 티스토리도 마찬가지이다. 일부 마크다운만 지원하나보다. 아니면 스킨이 문제인가..?
     3. 따라서 지원이 안되는데 정 필요한 경우, HTML로 작성해야한다.
+    4. HTML 작성 방법은 아래 참조
 
 <br>
 
 ```html
-- Format
+- HTML Format
 
 <dl> : Definition list
     <dt> : Definition title
@@ -68,7 +69,6 @@
 </dl>
 
 <br><br>
-
 
 ### 참조 문헌
 1. [markdownguide.org - Extended syntax](https://www.markdownguide.org/extended-syntax/#tables "Extended syntax overview")
