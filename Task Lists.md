@@ -19,10 +19,10 @@
 
     - Example
     <input type="checkbox" id="첫번째" name="첫번째"><label for="첫번째">첫번째</label><br>
-    <input type="checkbox" id="두번째" name="두번째"checked><label for="두번째">두번째</label><br>
-    <input type="checkbox" id="세번째" name="세번째"checked><label for="세번째">세번째</label><br>
+    <input type="checkbox" id="두번째" name="두번째" checked><label for="두번째">두번째</label><br>
+    <input type="checkbox" id="세번째" name="세번째" checked><label for="세번째">세번째</label><br>
     <input type="checkbox" id="네번째" name="네번째"><label for="네번째">네번째</label><br>
-    <input type="checkbox" id="HTMLlist" name="HTMLlist"checked><label for="HTMLlist">HTML로 Task list 만들어보기</label>
+    <input type="checkbox" id="HTMLlist" name="HTMLlist" checked><label for="HTMLlist">HTML로 Task list 만들어보기</label>
 ```
 <br>
 
@@ -34,15 +34,16 @@
     - [ ] HTML로 Task list 만들어보기
 
 - HTML 방법
-    - Format (체크 X) : <input type="checkbox" id="ID 지정" name="이름 지정"><label for="id">체크박스 옆 내용</label>
-    - Format (체크 O) : <input type="checkbox" id="ID 지정" name="이름 지정" checked><label for="id">체크박스 옆 내용</label>
-
-    - Example
-    <input type="checkbox" id="첫번째" name="첫번째"><label for="첫번째">첫번째</label><br>
-    <input type="checkbox" id="두번째" name="두번째" checked><label for="두번째">두번째</label><br>
-    <input type="checkbox" id="세번째" name="세번째" checked><label for="세번째">세번째</label><br>
-    <input type="checkbox" id="네번째" name="네번째"><label for="네번째">네번째</label><br>
+    <input type="checkbox" id="첫번째" name="첫번째"><label for="첫번째">첫번째</label>
+    <input type="checkbox" id="두번째" name="두번째" checked><label for="두번째">두번째</label>
+    <input type="checkbox" id="세번째" name="세번째" checked><label for="세번째">세번째</label>
+    <input type="checkbox" id="네번째" name="네번째"><label for="네번째">네번째</label>
     <input type="checkbox" id="HTMLlist" name="HTMLlist" checked><label for="HTMLlist">HTML로 Task list 만들어보기</label>
+<br>
+
+- 특이사항
+    1. 깃허브의 경우 HTML로 작성한 부분은 체크박스가 안보인다. 무언가 잘못한걸까?
+    2. 티스토리의 경우 리스트 기호가 같이 표시되면서 체크박스가 생긴다. 하이픈 기호 `-`를 빼는 경우 체크박스가 생기지 않는다. 신기하네..
 
 <br><br>
 
