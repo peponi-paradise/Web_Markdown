@@ -28,4 +28,3 @@
 <h3 id="참조-문헌">참조 문헌</h3>
 
 1. [markdownguide.org - Extended syntax](https://www.markdownguide.org/extended-syntax/#emoji "Extended syntax overview")
-2. [[HTML] 이모지(emoji) 삽입하는 방법!](https://23log.tistory.com/81)
