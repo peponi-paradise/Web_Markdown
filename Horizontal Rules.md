@@ -1,29 +1,36 @@
-### Horizontal Rules
-- 글 작성 중 구역 구분을 위해 가로선을 그어주면 편하다. 세 개 이상의 연속된 *, -, _ 기호를 사용한다.
+## Introduction
 
-```md
-1. 사용 예시
-
-******************
-
-------------------
-
-__________________
-```
 <br>
 
-- 테스트
+- 글의 구역을 정리하기 위해 사용할 수 있다.
+- 3개 이상의 연속된 `*`, `-`, `_` 기호를 사용한다.
 
-1. 사용 예시
+<br>
 
-******************
+## Example
 
-------------------
+<br>
 
-__________________
+```md
+**************
+--------------
+______________
+```
 
-<br><br>
+<br>
 
+## Rendering
 
-### 참조 문헌
-1. [markdownguide.org - Basic syntax](https://www.markdownguide.org/basic-syntax/#overview "Basic syntax overview")
+<br>
+
+**************
+--------------
+______________
+
+<br>
+
+## 참조 자료
+
+<br>
+
+- [Horizontal Rules](https://www.markdownguide.org/basic-syntax/#horizontal-rules)
