@@ -11,30 +11,48 @@
 
 <br>
 
-```md
-1. 사용법
-    **Without escaping**
-    \*\*With escaping\*\*
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>Render</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
 
-    + Without escaping
-    \+ With escaping
+```md
+\*\*With escaping\*\*
+**Without escaping**
 ```
 
-<br>
-
-## Rendering
-
-<br>
-
-**Without escaping**
+</td>
+<td>
 
 \*\*With escaping\*\*
+**Without escaping**
 
-<br>
+</td>
+</tr>
+<tr>
+<td>
 
-+ Without escaping
+```md
+\#\#\# With escaping
+### Without escaping
+```
 
-\+ With escaping
+</td>
+<td>
+
+\#\#\# With escaping
+### Without escaping
+
+</td>
+</tr>
+</tbody>
+</table>
 
 <br>
 

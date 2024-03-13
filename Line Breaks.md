@@ -12,19 +12,34 @@
 
 <br>
 
-```text
-첫번째 줄<br>두번째 줄  
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>Render</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+```md
+첫번째 줄  
+두번째 줄  
 세번째 줄
 ```
 
-<br>
+</td>
+<td>
 
-## Rendering
-
-<br>
-
-첫번째 줄<br>두번째 줄  
+첫번째 줄  
+두번째 줄  
 세번째 줄
+
+</td>
+</tr>
+</tbody>
+</table>
 
 <br>
 

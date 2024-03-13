@@ -1,4 +1,4 @@
-## 1. Introduction
+## Introduction
 
 <br>
 
@@ -17,9 +17,20 @@
 
 <br>
 
-## 2. Example
+## Example
 
 <br>
+
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>Render</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
 
 ```md
 첫번째 각주[^one]
@@ -35,11 +46,8 @@
     각주 내용에 `코드`삽입과 같이 글자 *Formatting*도 가능하다.
 ```
 
-<br>
-
-## 3. Rendering
-
-<br>
+</td>
+<td>
 
 첫번째 각주[^one]
 두번째 각주[^2]
@@ -53,9 +61,14 @@
     각주가 길어져도, 글 하단에 자동으로 추가된다.
     각주 내용에 `코드`삽입과 같이 글자 *Formatting*도 가능하다.
 
+</td>
+</tr>
+</tbody>
+</table>
+
 <br>
 
-## 4. 참조 자료
+## 참조 자료
 
 <br>
 

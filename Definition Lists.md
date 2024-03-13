@@ -1,15 +1,26 @@
-## 1. Introduction
+## Introduction
 
 <br>
 
 - 몇몇 마크다운은 리스트식 정의를 지원한다. 버전 이력 관리, 용어 정의 등에 좋아보인다.
-- 정의할 용어 다음 줄에 `: + 스페이스` 기입 후 글을 적어준다.
+- 정의할 용어 다음 줄에 `: ` 기입 후 글을 적어준다.
 
 <br>
 
-## 2. Example
+## Example
 
 <br>
+
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>Render</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
 
 ```md
 의자
@@ -17,19 +28,21 @@
 : 옷을 걸어두는 용도
 ```
 
-<br>
-
-## 3. Rendering
-
-<br>
+</td>
+<td>
 
 의자
 : 내가 앉아있는 것
 : 옷을 걸어두는 용도
 
+</td>
+</tr>
+</tbody>
+</table>
+
 <br>
 
-## 4. 특이사항
+## 특이사항
 
 <br>
 
@@ -39,7 +52,7 @@
 
 <br>
 
-## 5. HTML 작성
+## HTML 작성
 
 <br>
 
@@ -47,6 +60,17 @@
     - `<dl>` : Definition list
     - `<dt>` : Definition title
     - `<dd>` : Definition detail
+
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>Render</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
 
 ```html
 <dl>
@@ -56,15 +80,23 @@
 </dl>
 ```
 
+</td>
+<td>
+
 <dl>
     <dt>의자</dt>
     <dd>내가 앉아있는 것</dd>
     <dd>옷을 걸어두는 용도</dd>
 </dl>
 
+</td>
+</tr>
+</tbody>
+</table>
+
 <br>
 
-## 6. 참조 자료
+## 참조 자료
 
 <br>
 

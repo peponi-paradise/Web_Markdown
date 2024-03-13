@@ -10,21 +10,34 @@
 
 <br>
 
-```text
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>Render</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+```md
 첫번째 단락
 
 두번째 단락
 ```
 
-<br>
-
-## Rendering
-
-<br>
+</td>
+<td>
 
 첫번째 단락
 
 두번째 단락
+
+</td>
+</tr>
+</tbody>
+</table>
 
 <br>
 

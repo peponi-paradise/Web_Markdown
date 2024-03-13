@@ -6,57 +6,242 @@
 
 <br>
 
-## Example
+## Bold
 
 <br>
 
-```text
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>Render</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+```md
 **Bold**
+```
+
+</td>
+<td>
+
+**Bold**
+
+</td>
+</tr>
+<tr>
+<td>
+
+```md
 __Bold__
 ```
-```text
+
+</td>
+<td>
+
+__Bold__
+
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+## Italic
+
+<br>
+
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>Render</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+```md
 *Italic*
+```
+
+</td>
+<td>
+
+*Italic*
+
+</td>
+</tr>
+<tr>
+<td>
+
+```md
 _Italic_
 ```
-```text
+
+</td>
+<td>
+
+_Italic_
+
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+## Bold, Italic
+
+<br>
+
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>Render</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+```md
 ***Bold, Italic***
+```
+
+</td>
+<td>
+
+***Bold, Italic***
+
+</td>
+</tr>
+<tr>
+<td>
+
+```md
 ___Bold, Italic___
+```
+
+</td>
+<td>
+
+___Bold, Italic___
+
+</td>
+</tr>
+<tr>
+<td>
+
+```md
 __*Bold, Italic*__
+```
+
+</td>
+<td>
+
+__*Bold, Italic*__
+
+</td>
+</tr>
+<tr>
+<td>
+
+```md
 **_Bold, Italic_**
 ```
-```text
+
+</td>
+<td>
+
+**_Bold, Italic_**
+
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+## Strikethrough (Cancel line)
+
+<br>
+
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>Render</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+```md
 ~~Cancel line~~
 ```
+
+</td>
+<td>
+
+~~Cancel line~~
+
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+## Underline
+
+<br>
+
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>HTML</th>
+<th>Render</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+```md
+<!-- 대체로 불가 -->
+__Under line__
+```
+
+</td>
+<td>
+
 ```html
-<u>Under line</u>
-<span style="text-decoration: underline">HTML style</span>
+<u>Underline</u>
+<span style="text-decoration: underline">
+Underline
+</span>
 ```
 
-<br>
+</td>
+<td>
 
-## Rendering
+<span style="text-decoration: underline">
+Underline
+</span>
 
-<br>
-
-**Bold**
-__Bold__
-
-
-*Italic*
-_Italic_
-
-
-***Bold, Italic***
-___Bold, Italic___
-__*Bold, Italic*__
-**_Bold, Italic_**
-
-
-~~Cancel line~~
-
-
-<u>Under line</u>
-<span style="text-decoration: underline">HTML style</span>
+</td>
+</tr>
+</tbody>
+</table>
 
 <br>
 
@@ -64,7 +249,7 @@ __*Bold, Italic*__
 
 <br>
 
-- `밑줄`의 경우 마크다운에서 지원하지 않는다. HTML 스타일로 사용해야 한다.
+- `밑줄`의 경우 마크다운에서 지원하지 않는 경우가 많다. HTML 스타일로 사용하는 것이 좋다.
     - `<u>` 태그의 경우 HTML5에서 철자 오류 또는 주석으로 사용된다.
 
 <br>

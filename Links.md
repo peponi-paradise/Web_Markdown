@@ -9,48 +9,115 @@
 
 ## Example
 
+<br>
+
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>Render</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
 ```md
-- 기본 사용법
-    - [티스토리](http://tistory.com)
-- 툴팁과 함께 사용
-    - [네이버](http://naver.com "네이버")
-- 다이렉트 링크 (이메일 또는 URL)
-    - <tistory@tistory.com>
-    - <https://microsoft.com>
-- 링크 강조
-   - 강조 링크 **[Bold link](http://tistory.com)**
-   - 다른 강조 *[Italic link](https://markdownguide.org)*
-- 페이지 내부 링크 연결
-   - 여기를 누르면 [Introduction](#introduction)로 이동
-- 참조 링크
-   - 글 중간에 [참조링크][1] 삽입
+[티스토리](http://tistory.com)
+```
+
+</td>
+<td>
+
+[티스토리](http://tistory.com)
+
+</td>
+</tr>
+<tr>
+<td>
+
+```md
+[네이버](http://naver.com "툴팁")
+```
+
+</td>
+<td>
+
+[네이버](http://naver.com "툴팁")
+
+</td>
+</tr>
+<tr>
+<td>
+
+```md
+<!-- 링크 강조 -->
+
+*[Italic link](https://markdownguide.org)*
+```
+
+</td>
+<td>
+
+*[Italic link](https://markdownguide.org)*
+
+</td>
+</tr>
+<tr>
+<td>
+
+```md
+<!-- 다이렉트 링크 (이메일 또는 URL) -->
+
+<https://microsoft.com>
+```
+
+</td>
+<td>
+
+<https://microsoft.com>
+
+</td>
+</tr>
+<tr>
+<td>
+
+```md
+<!-- 내부 링크 -->
+
+[Introduction](#introduction)
+```
+
+</td>
+<td>
+
+[Introduction](#introduction)
+
+</td>
+</tr>
+<tr>
+<td>
+
+```md
+<!-- 참조 링크 -->
+
+[참조링크][1]
 
 <!-- 주소 삽입. 페이지에서는 안보임 -->
 [1]: http://tistory.com "Tistory"
 ```
 
-<br>
+</td>
+<td>
 
-## Rendering
-
-<br>
-
-- 기본 사용법
-    - [티스토리](http://tistory.com)
-- 툴팁과 함께 사용
-    - [네이버](http://naver.com "네이버")
-- 다이렉트 링크 (이메일 또는 URL)
-    - <tistory@tistory.com>
-    - <https://microsoft.com>
-- 링크 강조
-   - 강조 링크 **[Bold link](http://tistory.com)**
-   - 다른 강조 *[Italic link](https://markdownguide.org)*
-- 페이지 내부 링크 연결
-   - 여기를 누르면 [Introduction](#introduction)로 이동
-- 참조 링크
-   - 글 중간에 [참조링크][1] 삽입
+[참조링크][1]
 
 [1]: http://tistory.com "Tistory"
+
+</td>
+</tr>
+</tbody>
+</table>
 
 <br>
 

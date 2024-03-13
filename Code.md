@@ -10,44 +10,69 @@
 
 <br>
 
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>Render</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
 ```md
-- 글 내에서 `code` 표시
+간단한 `코드` 표시
 ```
+
+</td>
+<td>
+
+간단한 `코드` 표시
+
+</td>
+</tr>
+<tr>
+<td>
+
 ```md
-- Code 내에 ` (Backtick) 기호가 있는 경우 Backtick 2개로 감싸준다
-    `` `code` ``
+<!-- 코드 내에 ` 기호가 있는 경우 -->
+
+`` 코드 중간에 ` 기호 ``
 ```
+
+</td>
+<td>
+
+`` 코드 중간에 ` 기호 ``
+
+</td>
+</tr>
+<tr>
+<td>
+
 ```md
-- Code block으로 표현하려는 경우 Backtick 3개로 감싸 작성
-- 언어 지정 가능
+<!-- 코드 블록 표현은 backtick 3개 (```) -->
+<!-- 언어 지정 가능 -->
+
     ```python
     def TestFunction(PrintString:str):
         print(PrintString)
     ```
 ```
 
-<br>
+</td>
+<td>
 
-## Rendering
+```python
+def TestFunction(PrintString:str):
+    print(PrintString)
+```
 
-<br>
-
-- 글 내에서 `code` 표시
-
-<br>
-
-- Code 내에 \` (Backtick) 기호가 있는 경우 Backtick 2개로 감싸준다
-    `` `code` ``
-
-<br>
-
-- Code block으로 표현하려는 경우 Backtick 3개로 감싸 작성
-- 언어 지정 가능
-    
-    ```python
-    def TestFunction(PrintString:str):
-        print(PrintString)
-    ```
+</td>
+</tr>
+</tbody>
+</table>
 
 <br>
 

@@ -1,4 +1,4 @@
-## 1. Introduction
+## Introduction
 
 <br>
 
@@ -9,48 +9,55 @@
 
 <br>
 
-## 2. Example
+## Example
+
+<br>
+
+<table>
+<thead>
+<tr>
+<th>Markdown</th>
+<th>HTML</th>
+<th>Render</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
 
 ```md
-<!-- 마크다운 작성법-->
-
 - [ ] 1
 - [x] 2
 - [x] 3
 - [ ] 4
 ```
-```html
-<!-- HTML 작성법-->
 
+</td>
+<td>
+
+```html
 <input type="checkbox" id="1" name="1"><label for="1">1</label>
 <input type="checkbox" id="2" name="2" checked><label for="2">2</label>
 <input type="checkbox" id="3" name="3" checked><label for="3">3</label>
 <input type="checkbox" id="4" name="4"><label for="4">4</label>
 ```
 
-<br>
+</td>
+<td>
 
-## 3. Rendering
+- [ ] 1
+- [x] 2
+- [x] 3
+- [ ] 4
 
-<br>
-
-- 마크다운
-    - [ ] 1
-    - [x] 2
-    - [x] 3
-    - [ ] 4
-
-<br>
-
-- HTML
-    <input type="checkbox" id="1" name="1"><label for="1">1</label>
-    <input type="checkbox" id="2" name="2" checked><label for="2">2</label>
-    <input type="checkbox" id="3" name="3" checked><label for="3">3</label>
-    <input type="checkbox" id="4" name="4"><label for="4">4</label>
+</td>
+</tr>
+</tbody>
+</table>
 
 <br>
 
-## 4. 참조 자료
+## 참조 자료
 
 <br>
 
